@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    background-color: antiquewhite;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: rgb(180, 126, 151);
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 32px;
+}
+.header_btn{
+    text-decoration: none;
+    border-color: rgb(180, 126, 151);
+    font-size: 20px;
+    background-color: rgb(180, 126, 151);
+    font-weight: bold;
+    border-radius: 4px;
+}
+.header_btn:hover{
+    color: white;
+    background-color: purple;
+    border-color: rgb(55, 209, 55);
+    text-decoration: none;
+}
+.name{
+    background-color: rgb(92, 207, 200);
+    height: 45px;
+    padding: 10px 0px;
+    font-weight: bold;
+    /* text-decoration: none; */
+}
+.navbar{
+    min-height: 8vh;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-items{
+    width: 100%;
+    float: right;
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+li{
+    display: inline-block;
+    padding-right: 60px;
+}
+.food_and_diet{
+    font-size: bold;
+    margin-top: 10px;
+    height: 250px;
+    width: 100%;
+}
+
+.food_and_diet > h1{
+    text-align: center;
+}
+
+.quote {
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 800px;
+    /* background-color: rgb(9, 9, 9); */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+}
+.author {
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+}
+
+#image-container {
+    align-items: center;
+    overflow: hidden;
+    margin: 10px;
+  }
+
+#image-container img {
+    margin-left: 100px;
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 20%;
+    margin-top: 20px;
+  }
+
+#image-container span {
+    font-size: 18px;
+    font-style: italic;
+    width: auto;
+    margin-left: 30px;
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+span{
+    
+    width: 100%;
+    font-size: 18px;
+}
+.textArea{
+    margin-top: 30px;
+}
+  .diet_plan {
+    max-width: 800px;
+    padding: 20px;
+    margin-left: 250px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .diet_plan h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .diet_plan h4 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .diet_plan table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .diet_plan th, .diet_plan td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .diet_plan th {
+    text-align: left;
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  
+  .diet_plan tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+
+  
+  .diet_plan p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  
+  .diet_plan td:first-child {
+    font-weight: bold;
+  }
+  
+  .diet_plan td:first-child::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+  
+  .diet_plan td:first-child {
+    width: 20%;
+  }
+  
+  .diet_plan td {
+    width: 60%;
+  }
+
+  .diet_plan > h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+  }
+
+  .diet_plan>h3{
+    text-align: center;
+  }
+
+  .odd-table{
+    margin-left: 100px;
+  }
+
+  .fitness > h1{
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .textAreaFitness{
+    margin-top: 50px;
+  }
+#image-container-fitness {
+    align-items: center;
+    overflow: hidden;
+    margin: 10px;
+  }
+
+#image-container-fitness img {
+    margin-left: 100px;
+    max-width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 40%;
+    opacity: 0.8;
+  }
+
+  .workout{
+    max-width: 800px;
+    padding: 20px;
+    margin-left: 250px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    /* font-weight: ; */
+    background-image: url(../images/wrk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+  }
+  .workout>h1{
+    text-align: center;
+    margin-top: 20px;
+
+  }
+  .footer{
+    background-color: rgb(92, 207, 200) ;
+    padding-left: 12px;
+}
+.footer .box-container{
+    display: inline-block;
+}
